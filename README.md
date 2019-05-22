@@ -1,7 +1,7 @@
 # my-resume
 
 
-[Go to My resume](https://abdotaouala.github.io/my-resume/).
+[Demo](https://abdotaouala.github.io/my-resume/).
 
 
 
