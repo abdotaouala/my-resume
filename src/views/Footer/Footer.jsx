@@ -1,11 +1,10 @@
 import React from 'react';
+import "./Footer.css";
 const Footer = () => {
     return (
-        <footer>
-            <div className="container row"> 
-                <div className="col-md-offset-8 col-md-4">
-                    AbdelTaouaLa@2019
-                </div>
+        <footer> 
+            <div>
+              AbdelTaouaLa@2019 - ReactJS 
             </div>
         </footer>
       );
