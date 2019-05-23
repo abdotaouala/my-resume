@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/my-resume/static/css/main.d30686a1.chunk.css",
-    "main.js": "/my-resume/static/js/main.7c31c341.chunk.js",
-    "main.js.map": "/my-resume/static/js/main.7c31c341.chunk.js.map",
+    "main.css": "/my-resume/static/css/main.8d2fb015.chunk.css",
+    "main.js": "/my-resume/static/js/main.e0a78386.chunk.js",
+    "main.js.map": "/my-resume/static/js/main.e0a78386.chunk.js.map",
     "runtime~main.js": "/my-resume/static/js/runtime~main.1423441b.js",
     "runtime~main.js.map": "/my-resume/static/js/runtime~main.1423441b.js.map",
-    "static/js/2.00e8c4af.chunk.js": "/my-resume/static/js/2.00e8c4af.chunk.js",
-    "static/js/2.00e8c4af.chunk.js.map": "/my-resume/static/js/2.00e8c4af.chunk.js.map",
+    "static/js/2.f4ff6c69.chunk.js": "/my-resume/static/js/2.f4ff6c69.chunk.js",
+    "static/js/2.f4ff6c69.chunk.js.map": "/my-resume/static/js/2.f4ff6c69.chunk.js.map",
     "index.html": "/my-resume/index.html",
-    "precache-manifest.5a521e0788ceb8d5b76e851ecc1b1f02.js": "/my-resume/precache-manifest.5a521e0788ceb8d5b76e851ecc1b1f02.js",
+    "precache-manifest.01782ad5c8c58d727a6eb780a99be595.js": "/my-resume/precache-manifest.01782ad5c8c58d727a6eb780a99be595.js",
     "service-worker.js": "/my-resume/service-worker.js",
-    "static/css/main.d30686a1.chunk.css.map": "/my-resume/static/css/main.d30686a1.chunk.css.map",
-    "static/media/logo.svg": "/my-resume/static/media/logo.5d5d9eef.svg"
+    "static/css/main.8d2fb015.chunk.css.map": "/my-resume/static/css/main.8d2fb015.chunk.css.map",
+    "static/media/angular.png": "/my-resume/static/media/angular.1a632d2b.png",
+    "static/media/logo.svg": "/my-resume/static/media/logo.5d5d9eef.svg",
+    "static/media/myImg.png": "/my-resume/static/media/myImg.8ecb7428.png",
+    "static/media/react.png": "/my-resume/static/media/react.692adb35.png"
   }
 }
