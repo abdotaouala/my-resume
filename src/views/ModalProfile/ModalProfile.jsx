@@ -1,11 +1,9 @@
-import  React  from "react";
-import { Button, Modal,Badge } from "react-bootstrap";
-import { ProfileContext } from "./../../contexts";
+import React from "react";
+import {Badge, Button, Modal} from "react-bootstrap";
+import {ProfileContext} from "./../../contexts";
 // img
 import * as myPhoto from "./../../assets/img/myImg.png";
-import * as angular from "./../../assets/img/angular.png";
-import * as spring from "./../../assets/img/spring.png";
-import * as react from "./../../assets/img/react.png";
+import LinearProgress from '@material-ui/core/LinearProgress';
 
 const ModalProfile=(props)=>{
 
@@ -32,17 +30,6 @@ const ModalProfile=(props)=>{
                         </center>
                         <div>
                             <div>
-                                <b>Skills : </b>
-                            </div>
-                            <div className="skills"> 
-                                <Badge pill variant="primary">Angular <Badge variant="light">9</Badge></Badge>
-                                <Badge pill variant="warning">React <Badge variant="light">9</Badge></Badge>
-                                <Badge pill variant="primary">Spring Boot <Badge variant="light">9</Badge></Badge>
-                                <Badge pill variant="info">Java 8 <Badge variant="light">9</Badge></Badge>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
                                 <b>Bio :</b>
                             </div>
                             <div>
@@ -51,6 +38,28 @@ const ModalProfile=(props)=>{
                         </p>
                             </div>
                         </div>
+                    <div>
+                        <b>Skills : </b>
+                    </div>
+                    <div className="skills">
+                        <div>
+                            Angular 2+
+                            <LinearProgress color="secondary" variant="buffer" value={70} valueBuffer={80}/>
+                            React
+                            <LinearProgress variant="buffer" value={60}
+                                            valueBuffer={70}/>
+                            Spring (Boot / Data / Security / Cloud) with Java 8
+                            <LinearProgress variant="buffer" value={50}
+                                            valueBuffer={60}/>
+                            Git
+                            <LinearProgress variant="buffer" value={90}
+                                            valueBuffer={100}/>
+                            Jenkins , Drops, Docker, Gitlab, GitHub
+                            <LinearProgress variant="buffer" value={60}
+                                            valueBuffer={70}/>
+                        </div>
+
+                    </div>
                 </div>
             </div>
           

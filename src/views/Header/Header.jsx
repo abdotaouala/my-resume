@@ -1,38 +1,38 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
+import {Link} from "react-router-dom";
+import "./Header.scss";
+import {Nav} from "react-bootstrap";
+
+
 const Header = () => {
-    return ( 
-        <>
+    return (
         <header>
-            <Nav className="justify-content-center" activeKey="/home">
-                <Nav.Item >
-                    <Nav.Link href="/home">
+            <Nav className="justify-content-center" activeKey="/">
+                <Nav.Item>
+                    <Link to="/">
                         Profile
-                    </Nav.Link>
+                    </Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1">
-                        Experiences
-                    </Nav.Link>
+                    <Link to="/experiences">Experiences</Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2">
-                        Technologies 
-                    </Nav.Link>
+                    <Link to="/technologies">
+                        Technologies
+                    </Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2" >
-                        Projects 
-                    </Nav.Link>
+                    <Link to="/projects">
+                        Projects
+                    </Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2" >
-                        Blogs 
-                    </Nav.Link>
+                    <Link to="/blogs">
+                        Blogs
+                    </Link>
                 </Nav.Item>
             </Nav>
         </header>
-        </>
      );
 }
  
